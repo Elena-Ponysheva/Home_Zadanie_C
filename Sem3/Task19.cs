@@ -6,7 +6,7 @@
 23432 -> да
 */
 
-Console.WriteLine("Vvedite 5-oe shislo");
+Console.WriteLine("Введите 5-ое число");
 int number = int.Parse(Console.ReadLine()!);
 if (number < 0)
 {
@@ -21,14 +21,14 @@ if (number < 0)
 
             if (c1 == c5 && c2 == c4)
             {
-                Console.WriteLine("Palindrom");
+                Console.WriteLine("Палиндром");
             }
             else
             {
-                Console.WriteLine("Ne Palindrom");
+                Console.WriteLine("Не палиндром");
             }
     }
     else
     {
-        Console.WriteLine("Oshibka. Vvedite 5-oe shislo");
+        Console.WriteLine("Ошибка. Некорректный ввод данных");
     }

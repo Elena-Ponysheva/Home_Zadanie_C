@@ -5,11 +5,19 @@
 5 -> 1, 8, 27, 64, 125
 */
 
-Console.WriteLine("Vvedite shislo");
+Console.WriteLine("Введите число");
 int number = int.Parse(Console.ReadLine()!);
 
-for (int i =1; i < number; i++)
+if (number > 1)
 {
-Console.Write(Math.Pow(i, 3) + ", ");
+    for (int i =1; i < number; i++)
+    {   
+        Console.Write(Math.Pow(i, 3) + ", ");
+    }
+    Console.Write(Math.Pow(number, 3));
 }
-Console.Write(Math.Pow(number, 3));
+
+else 
+{
+    Console.WriteLine("Некорректный ввод данных");
+}

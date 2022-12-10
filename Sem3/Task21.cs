@@ -6,18 +6,18 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 */
 
 
-Console.WriteLine("Vvedite 1 znachenir tochki A");
+Console.WriteLine("Введите первое значение точки А");
 int x1 = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Vvedite 2 znachenir tochki A");
+Console.WriteLine("Введите второе значение точки А");
 int y1 = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Vvedite 3 znachenir tochki A");
+Console.WriteLine("Введите третье значение точки А");
 int z1 = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine("Vvedite 1 znachenir tochki B");
+Console.WriteLine("Введите первое значение точки B");
 int x2 = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Vvedite 2 znachenir tochki B");
+Console.WriteLine("Введите второе значение точки B");
 int y2 = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Vvedite 3 znachenir tochki B");
+Console.WriteLine("Введите третье значение точки B");
 int z2 = int.Parse(Console.ReadLine()!);
 
 double AB = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
